@@ -1,4 +1,4 @@
-# SIH PS-25231 – Multimodal RAG (Text · Image · Audio) — NO external FFmpeg
+# Multimodal RAG (Text · Image · Audio) — NO external FFmpeg
 # PyAV (av) decodes audio to 16k mono numpy for Whisper. CLIP (text+image) shared space, FAISS retrieval,
 # grounded answers with citations. Robust YouTube pipeline with format fallback & validation.
 
@@ -482,3 +482,4 @@ if do:
                             st.audio(tf.name)
                     except Exception as e:
                         st.caption(f"(Could not render snippet: {e})")
+
